@@ -281,6 +281,7 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker/)
 
 -   [bunkerized-nginx](https://github.com/bunkerity/bunkerized-nginx) - Web app hosting and reverse proxy secure by default. By [@bunkerity](https://github.com/bunkerity)
 -   [caddy-docker-proxy](https://github.com/lucaslorentz/caddy-docker-proxy) - Caddy-based reverse proxy, configured with service or container labels. By [@lucaslorentz](https://github.com/lucaslorentz)
+-   [caddy-docker-upstreams](https://github.com/invzhi/caddy-docker-upstreams) - Docker upstreams module for Caddy, configured with container labels. By [@invzhi](https://github.com/invzhi)
 -   [Docker Dnsmasq Updater](https://github.com/moonbuggy/docker-dnsmasq-updater) - Update a remote dnsmasq server with Docker container hostnames.
 -   [docker-flow-proxy](https://github.com/docker-flow/docker-flow-proxy) - Reconfigures proxy every time a new service is deployed, or when a service is scaled. By [@docker-flow][docker-flow]
 -   [docker-proxy](https://github.com/silarsis/docker-proxy) :skull: - Transparent proxy for docker containers, run in a docker container. By [@silarsis](https://github.com/silarsis)
@@ -305,6 +306,7 @@ _Source:_ [What is Docker](https://www.docker.com/why-docker/)
 
 ### Security
 
+-   [Anchor](https://github.com/SongStitch/anchor/) - A tool to ensure reproducible builds by pinning dependencies inside your Dockerfiles [@SongStitch](https://github.com/songStitch/)
 -   [Anchor Engine](https://github.com/anchore/anchore) - Analyze images for CVE vulnerabilities and against custom security policies by [@Anchor](https://github.com/anchore)
 -   [Aqua Security](https://www.aquasec.com) :heavy_dollar_sign: - Securing container-based applications from Dev to Production on any platform
 -   [bane](https://github.com/genuinetools/bane) - AppArmor profile generator for Docker containers by [@genuinetools][genuinetools]
@@ -375,7 +377,6 @@ Native desktop applications for managing and montoring docker hosts and clusters
 #### Terminal
 
 ##### Terminal UI
-
 -   [ctop (1)](https://github.com/yadutaf/ctop) - :skull: A command line / text based Linux Containers monitoring tool that works just like you expect (Python) by [@yadutaf](https://github.com/yadutaf)
 -   [ctop (2)](https://github.com/bcicen/ctop) - :skull: Top-like interface for container metrics (Golang) by [@bcicen](https://github.com/bcicen/)
 -   [dive](https://github.com/wagoodman/dive) - A tool for exploring each layer in a docker image. By [wagoodman](https://github.com/wagoodman).
@@ -385,6 +386,7 @@ Native desktop applications for managing and montoring docker hosts and clusters
 -   [DockSTARTer](https://github.com/GhostWriters/DockSTARTer) - DockSTARTer helps you get started with home server apps running in Docker by [GhostWriters](https://github.com/GhostWriters)
 -   [docui](https://github.com/skanehira/docui) - :skull: An interactive shell UI for managing Docker containers. Also works in Windows. By [@skanehira]
 -   [dry](https://github.com/moncho/dry) - An interactive CLI for Docker containers by [@moncho](https://github.com/moncho)
+-   [goManageDocker](https://github.com/ajayd-san/gomanagedocker) - TUI tool to view and manage your docker objects blazingly fast with sensible keybindings, also supports VIM navigation out of the box by [@ajay-dsan](https://github.com/ajayd-san)
 -   [lazydocker](https://github.com/jesseduffield/lazydocker) - The lazier way to manage everything docker. A simple terminal UI for both docker and docker-compose, written in Go with the gocui library. By [@jesseduffield](https://github.com/jesseduffield)
 -   [oxker](https://github.com/mrjackwills/oxker) - A simple tui to view & control docker containers. Written in [Rust](https://www.rust-lang.org/), making heavy use of [ratatui](https://github.com/tui-rs-revival/ratatui) & [Bollard](https://github.com/fussybeaver/bollard), by [@mrjackwills](https://github.com/mrjackwills)
 -   [sen](https://github.com/TomasTomecek/sen) - :skull: Terminal user interface for docker engine, by [@TomasTomecek][tomastomecek]
@@ -804,7 +806,7 @@ Services to securely store your Docker images.
 -   [CVE Scanning Alpine images with Multi-stage builds in Docker 17.05](https://github.com/tomwillfixit/alpine-cvecheck) by [@tomwillfixit](https://twitter.com/tomwillfixit)
 -   [Docker Secure Deployment Guidelines](https://github.com/AonCyberLabs/Docker-Secure-Deployment-Guidelines)
 -   [Docker Security - Quick Reference](https://binarymist.io/publication/docker-security/)
--   [Docker Security: Are Your Containers Tightly Secured to the Ship? SlideShare](https://fr.slideshare.net/MichaelBoelen/docker-security-are-your-containers-tightly-secured-to-the-ship)
+-   [Docker Security: Are Your Containers Tightly Secured to the Ship? SlideShare](https://www.slideshare.net/slideshow/docker-security-are-your-containers-tightly-secured-to-the-ship/43834790)
 -   [How CVE's are handled on Offical Docker Images](https://github.com/docker-library/official-images/issues/1448)
 -   [Lynis is an open source security auditing tool including Docker auditing](https://cisofy.com/lynis/)
 -   [Security Best Practices for Building Docker Images](https://linux-audit.com/tags/docker/)
